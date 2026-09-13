@@ -181,7 +181,7 @@ whenBodyReady(() => {
                 loadScript("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"),
                 loadScript("https://cdn.jsdelivr.net/gh/hu6amini/perve_avenue@9681242beef6f3a2e2e4c8de461c2e6eeabec26a/core/dom-utils.min.js"),
                 loadScript("https://cdn.jsdelivr.net/gh/hu6amini/perve_avenue@70efe7c7bca10a5093093841f67994aef3b76819/forum_core_observer.min.js"),
-                loadScript("https://cdn.jsdelivr.net/gh/hu6amini/perve_avenue@98dc6f9395f0b13685e5dc5aa48e02089bb97d66/modules/theme.js")
+                loadScript("https://cdn.jsdelivr.net/gh/hu6amini/perve_avenue@f026ad7f7daaf1eeb12eb4b6bcb46fe9f2d6d2cd/modules/theme.js")
             ]);
             const failedB = resultsB.filter(r => r.status === 'rejected');
             if (failedB.length > 0) {
