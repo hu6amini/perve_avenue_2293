@@ -62,7 +62,7 @@ var ThemeModule = (function(Utils, EventBus) {
         if (icon) {
             icon.className = isLight
                 ? 'fa-regular fa-moon'
-                : 'fa-regular fa-sun';
+                : 'fa-regular fa-sun-bright';
         }
         btn.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
         btn.setAttribute('aria-pressed', String(isLight));
