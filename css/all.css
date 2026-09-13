@@ -245,6 +245,11 @@
 .fa-file-code::before {content: "\f1c9"; }
 .fa-file-audio::before {content: "\f1c7"; }
 .fa-file-video::before {content: "\f1c8"; }
+.fa-circle-play::before {content: "\f144"; }
+.fa-layer-group::before {content: "\f5fd"; }
+.fa-magnifying-glass-plus::before {content: "\f00e"; }
+.fa-sun-bright::before {content: "\e28f"; }
+.fa-moon::before {content: "\f186"; }
 
 :root, :host {
   --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Pro";
