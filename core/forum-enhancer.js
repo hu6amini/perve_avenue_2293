@@ -21,6 +21,7 @@
         wrapperId: 'modern-forum-wrapper',
         hideOriginal: false,
         modules: {
+            'theme': true,
             'media-dimensions': true,
             twemoji: true,
             posts: true,
@@ -248,6 +249,14 @@
     // REGISTER MODULES (with boards added)
     // ============================================================================
     function registerAllModules() {
+        // --- THEME MODULE ---
+if (typeof ThemeModule !== 'undefined') {
+    registerModule('theme', ThemeModule, ['eventBus']);
+} else {
+    log('ThemeModule not found, theme toggle disabled', 'warn');
+    ENHANCER_CONFIG.modules.theme = false;
+}
+        
         if (typeof MediaDimensionsModule !== 'undefined') {
             registerModule('media-dimensions', MediaDimensionsModule, ['forumObserver']);
         } else {
